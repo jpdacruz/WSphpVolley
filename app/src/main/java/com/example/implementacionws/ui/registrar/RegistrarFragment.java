@@ -34,7 +34,7 @@ public class RegistrarFragment extends Fragment implements Response.ErrorListene
     private Button registrar;
     private ProgressDialog progressDialog;
     private RequestQueue requestQueue;
-    JsonObjectRequest jsonObjectRequest;
+    private JsonObjectRequest jsonObjectRequest;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -95,7 +95,6 @@ public class RegistrarFragment extends Fragment implements Response.ErrorListene
          */
         jsonObjectRequest = new JsonObjectRequest(Request.Method.GET,url,null,this,this);
         requestQueue.add(jsonObjectRequest);
-
 
     }
 

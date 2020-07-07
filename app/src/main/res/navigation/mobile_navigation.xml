@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/navigation_listado"
-        android:name="com.example.implementacionws.ui.home.ListadoFragment"
+        android:name="com.example.implementacionws.ui.listado.ListadoFragment"
         android:label="@string/title_listado"
         tools:layout="@layout/fragment_listado" />
 

@@ -1,4 +1,4 @@
-package com.example.implementacionws.ui.home;
+package com.example.implementacionws.ui.listado;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
