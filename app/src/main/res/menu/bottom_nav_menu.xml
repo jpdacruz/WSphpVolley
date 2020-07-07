@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_listado"
+        android:icon="@drawable/ic_baseline_supervisor_account_24"
+        android:title="@string/title_listado" />
+
+    <item
+        android:id="@+id/navigation_consulta"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/title_consultar" />
+
+    <item
+        android:id="@+id/navigation_registrar"
+        android:icon="@drawable/ic_baseline_add_circle_24"
+        android:title="@string/title_registrar"/>
+
+</menu>
