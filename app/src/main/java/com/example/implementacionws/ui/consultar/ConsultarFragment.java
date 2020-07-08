@@ -114,6 +114,7 @@ public class ConsultarFragment extends Fragment implements Response.Listener<JSO
              */
             user.setNombreUser(jsonObject.optString("nombre"));
             user.setProfesion(jsonObject.optString("profesion"));
+            user.setDocumento(jsonObject.optInt("documento"));
         } catch (JSONException e) {
             e.printStackTrace();
         }
